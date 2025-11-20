@@ -32,7 +32,7 @@ SELECT
   theme,
   COUNT(resources.theme_id) AS Total
 FROM themes
-LEFT JOIN resources ON themes.id = resources.theme_id
+JOIN resources ON themes.id = resources.theme_id
 GROUP BY theme;
 
 -- Récupérer le nom et l'url de toutes les ressources avec un tableau/liste contenant l'ensemble de leurs skills associés
