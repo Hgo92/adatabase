@@ -22,7 +22,7 @@ WHERE resources_skills.skill_id = 1;
 
 -- Récupérer les ressources dont le titre contient le mot "react" (avec ou sans majuscules)
 
-SELECT * from resources WHERE title LIKE '%React%' OR title LIKE '%react%'
+SELECT * from resources WHERE title LIKE '%React%' OR title LIKE '%react%';
 
 -- BONUS 
 
